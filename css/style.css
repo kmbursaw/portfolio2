@@ -1,0 +1,283 @@
+
+/* Fonts */
+@font-face {
+    font-family: CuppaJoe;
+    src: local("CuppaJoe"),
+    url("assets/CuppaJoe");
+}
+
+@font-face {
+    font-family: AeroviasBrasilNF;
+    src: local("AeroviasBrasilNF"),
+    url("assets/AeroviasBrasilNF");
+}
+
+@font-face {
+    font-family: 'aerovias_brasil_nfregular';
+    src: url('assets/aeroviasbrasilnf-webfont.woff2') format('woff2'),
+         url('assets/aeroviasbrasilnf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'cuppajoeregular';
+    src: url('assets/cuppajoe-webfont.woff2') format('woff2'),
+         url('assets/cuppajoe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #04012e;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-family: 'aerovias_brasil_nfregular';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'aerovias_brasil_nfregular';
+    padding: 10px;
+}
+
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #04012e;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #04012e;
+    fill: #04012e;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/VFR_Sectional.png");
+    text-align: center;
+    color: #f1eded;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-family: 'cuppajoeregular';
+    font-weight: normal;
+}
+
+.jumbotron h6 {
+    font-size: 20px;
+    font-family: 'cuppajoeregular';
+    font-weight: normal;
+}
+
+
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #ebd122;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-width: 100%;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Georgia', serif;
+    background-color: #f7f1fa;
+    color: #242424;
+}
+
+/*** Personal Statement ***/
+
+.personal p{
+    font-size: 14px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    color: rgb(245, 248, 241);
+}
+
+.cv h3 {
+    font-size: 26px;
+    font-family: cuppajoeregular;
+    font-weight: normal;
+    color: #cccccc;
+}
+
+.brief_resume p{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.cv h4{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.container h5{
+    font-size: 20px;
+    font-family: cuppajoeregular;
+    color: #cccccc;
+}
+
+.container h2{
+    font-size: 30px;
+    font-family: cuppajoeregular;
+    color: #cccccc;
+}
+
+.cv li{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.about p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.about h3{
+    font-size: 25px;
+    font-family: cuppajoeregular;
+    color: #cccccc;
+}
+
+.contact h3{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.cv p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.portfolio-description p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.drone p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.africa p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.baseball p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.college p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.medals p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.donuts p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
+
+.vice_tileset p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cccccc;
+}
